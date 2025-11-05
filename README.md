@@ -1,112 +1,111 @@
 📊 Veridia Resume Intelligence System
 
-🌟 Overview
+🌟 Project Overview
 
-The Veridia Resume Intelligence System is an AI-powered Streamlit web application designed to streamline the recruitment process. It analyzes unstructured text data from resumes to provide objective metrics and classifications, helping recruiters quickly filter and categorize candidates.
+Veridia Resume Intelligence System is an AI-powered recruitment assistant built with Streamlit. It intelligently parses resumes, predicts job readiness scores, categorizes candidates into skill domains, and visualizes data in a clean interactive dashboard.
 
-The core functionality includes machine learning models that predict candidate suitability and specialized domain.
+💡 Empowering recruiters with data-driven insights to save time, prioritize candidates, and make smarter hiring decisions.
 
-✨ Core Features
+✨ Key Features
+Feature	Description
+✅ Job Readiness Score	Quantitative prediction of a candidate's fit for generic roles. Prioritize screening efficiently.
+🧠 Candidate Category Prediction	Classifies candidates into skill domains like Data Science, HR, Web Development, etc.
+⬆️ Flexible Data Ingestion	Supports PDF/DOCX uploads and text pasting.
+📊 Interactive Dashboard	Streamlit-powered interactive dashboard for analytics & visualization.
+🤖 Robust ML Pipelines	Pre-trained ML models for classification & regression ensure accurate predictions.
+⚡ Easy Deployment	Lightweight Python system, easily deployable locally or on the cloud.
+🛠️ Tech Stack
 
-Icon
+Core: Python
 
-Feature
+Web App: Streamlit
 
-Description
+ML Models: scikit-learn pipelines
 
-✅
+Data Processing: pandas & numpy
 
-Job Readiness Score
+Resume Parsing: python-docx, PyPDF2
 
-A quantitative prediction of a candidate's fit for a generic role, helping to prioritize the screening queue.
+Visualization: plotly, seaborn, matplotlib
 
-🧠
+🚀 Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/AnshulSharma9340/resume-analytics-ml.git
+cd resume-analytics-ml
 
-Candidate Category
-
-Classifies the candidate's primary skill domain (e.g., Data Science, HR, Web Developer) for easy pipeline routing.
-
-⬆️
-
-Direct Data Ingestion
-
-Supports flexible input via direct resume file upload (PDF/DOCX) or text pasting.
-
-📊
-
-Interactive Dashboard
-
-Results are displayed in a clean, interactive dashboard built using Streamlit.
-
-🤖
-
-ML Pipelines
-
-Uses robust Machine Learning–based classification and regression pipelines for predictive tasks.
-
-⚙️ Tech Stack
-
-This project is built using the following technologies:
-
-Python 🐍: The primary development language.
-
-Streamlit 🌐: Used for creating the interactive web application interface.
-
-scikit-learn 🤖: The core library for building, training, and deploying the ML models.
-
-pandas / numpy 📊: Essential libraries for data cleaning, manipulation, and numerical processing.
-
-🚀 Installation and Setup
-
-Follow these steps to set up the project locally.
-
-1. Clone the Repository
-
-git clone [https://github.com/AnshulSharma9340/resume-analytics-ml.git)
-cd veridia-resume-ai
-
-
-2. Create a Virtual Environment (Recommended)
-
-Using a virtual environment prevents dependency conflicts with other Python projects.
-
-# Create the environment
+2️⃣ Create a Virtual Environment
 python -m venv venv
-
-# Activate the environment (Windows)
+# Windows
 .\venv\Scripts\activate
-
-# Activate the environment (macOS/Linux)
+# macOS/Linux
 source venv/bin/activate
 
-
-3. Install Dependencies
-
-You need to install all necessary Python packages. This assumes you have a requirements.txt file in your repository.
-
+3️⃣ Install Dependencies
 pip install -r requirements.txt
 
 
-(If you do not have a requirements.txt file yet, you will need to create one listing all packages like streamlit, scikit-learn, pandas, etc.)
+⚠️ If requirements.txt is missing, include these:
 
-4. Run the Application
+streamlit
+scikit-learn
+pandas
+numpy
+python-docx
+PyPDF2
+plotly
+matplotlib
+seaborn
 
-Execute the main application file using Streamlit:
-
-streamlit run "file_name".py 
-# Note: Ensure your main Streamlit script is named 'file-name' or adjust the command.
+4️⃣ Run the Application
+streamlit run app.py
 
 
-The application will start and automatically open in your default web browser at http://localhost:8501.
+Opens automatically at: http://localhost:8501
+
+🧩 How It Works
+
+Upload Resume – Upload PDF/DOCX or paste plain text.
+
+Predict Readiness & Category – ML models evaluate candidate.
+
+Visualize Insights – View interactive charts and metrics in the dashboard.
+
+Example:
+
 
 🤝 Contribution
 
-Feel free to open issues or submit pull requests for any bug fixes, feature additions, or improvements.
+Contributions are welcome! You can:
 
-✉️ Contact
+Fix bugs & issues
 
-Anshul Sharma 
-linkedIn - https://www.linkedin.com/in/anshul-sharma-9856882a4/
-Email - anshulsharma7162@gmail.com
+Add new ML models or features
 
-Project Link: https://github.com/AnshulSharma9340/resume-analytics-ml/
+Improve documentation & visuals
+
+Optimize code & performance
+
+Steps to contribute:
+
+# Fork repository
+git checkout -b feature/awesome-feature
+# Make changes
+git commit -m "Add new feature"
+git push origin feature/awesome-feature
+# Open a Pull Request
+
+📧 Contact & Support
+
+Author: Anshul Sharma
+
+LinkedIn
+
+Email: anshulsharma7162@gmail.com
+
+GitHub Project: Resume Analytics ML
+
+📜 License
+
+This project is licensed under the MIT License – see LICENSE
+ for details.
+
