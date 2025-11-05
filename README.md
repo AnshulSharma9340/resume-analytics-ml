@@ -2,7 +2,7 @@
 
 <!-- 💫 Animated Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=4000&pause=800&color=00FFFF&center=true&vCenter=true&width=800&lines=Welcome+to+Veridia+Resume+Intelligence+System;AI+Recruitment+Assistant;Predict+Job+Readiness+%26+Candidate+Category;Built+with+Python+%26+Streamlit"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=4000&pause=800&color=00FFFF&center=true&vCenter=true&width=800&lines=Veridia+Resume+Intelligence+System;AI+Recruitment+Assistant;Predict+Job+Readiness+%26+Candidate+Category;Built+with+Python+%26+Streamlit"/>
 </p>
 
 <!-- ⚡ Glowing Divider -->
