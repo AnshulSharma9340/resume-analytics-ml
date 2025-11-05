@@ -55,3 +55,4 @@ st.sidebar.markdown("""
 
 st.sidebar.markdown("---")
 st.sidebar.info("Developed by **Anshul** 🚀")
+#resume Project for Veredia Internship
