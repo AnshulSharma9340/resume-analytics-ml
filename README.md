@@ -17,6 +17,7 @@
 
 The **Veridia Resume Intelligence System** is an **AI-powered recruitment assistant** built using **Python** and **Streamlit**.  
 It parses resumes (PDF/DOCX), predicts **Job Readiness Scores**, classifies candidates into skill domains, and displays results in an **interactive dashboard**.
+I make this resume for my internship in veredia.io
 
 💡 *Helps recruiters make data-driven hiring decisions, saving time and improving candidate matching.*
 
